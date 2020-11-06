@@ -1,0 +1,12 @@
+---
+Title: Hem
+Description: Detta är vår index-sida
+---
+
+Hem
+==========================
+
+Mitt namn är Linnéa och jag studerar första året på Webbprogrammeringsprogrammet vid Blekinge Tekniska Högskola. Jag har sedan tidigare en kandidatexamen i Grafisk design och kommunikation men då jag har varit i kontakt med programmering tidigare vill jag gärna i framtiden jobba
+i gränslandet mellan teknik och design. 
+
+Denna sida är en del av kursen Teknisk webbdesign och användbarhet.
