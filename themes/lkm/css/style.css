@@ -43,7 +43,7 @@ body {
 .main {
     flex: 1 0 auto;
     padding: 3em 0 4em;
-    background-color: #f2fff4;
+    background-color: #f8fff9;
 }
 
 .header, .footer {
@@ -69,7 +69,7 @@ body {
 /*** BASIC LAYOUT: HEADER ***/
 
 .header {
-    background: #f2fff4;
+    background: #326936;
 }
 
 .title, .logo {
@@ -79,7 +79,7 @@ body {
 
 .title * {
     margin: 0;
-    color: #374b39;
+    color: #ffffff;
 }
 
 .title p {
@@ -126,15 +126,15 @@ body {
 }
 
 .nav a, .nav-toggle {
-    color: #326936;
+    color: #ffffff;
 }
 
 .nav .active a, .nav a:hover, .nav-toggle:hover {
-    color: #ec9c1c;
+    color: #FFCF54;
 }
 
 .nav a:hover, .nav-toggle:hover {
-    color: #ec9c1c;
+    color: #FFCF54;
     text-decoration: underline;
 }
 
@@ -267,7 +267,7 @@ p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
 }
 
 a {
-    color: #c56c35;
+    color: #dda61c;
     text-decoration: none;
     transition: color 0.2s ease-in;
 }
