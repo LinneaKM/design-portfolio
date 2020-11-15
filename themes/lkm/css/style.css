@@ -6677,6 +6677,10 @@ body {
   max-width: 100%;
 }
 
+img {
+  max-width: 100%;
+}
+
 .footer {
   background-color: #445a52;
   min-height: 10vh;
