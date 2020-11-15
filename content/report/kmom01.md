@@ -6,13 +6,13 @@ Description: First assignment
  Kursmoment 1
 ======
 
-#### Har du jobbat med ramverk eller andra CMS:er tidigare?
+### Har du jobbat med ramverk eller andra CMS:er tidigare?
 
 Jag har tidigare jobbat med Wordpress i min tidigare utbildning samt på skarpa projekt. Dock har jag väl aldrig lärt mig det till fullo utan
 det var mycket experimenterande. 
 
 
-#### Det blev en del nya verktyg och tekniker i labbmiljön och för att jobba med portfolio-sidan, är du bekant med någon av dem sedan tidigare?
+### Det blev en del nya verktyg och tekniker i labbmiljön och för att jobba med portfolio-sidan, är du bekant med någon av dem sedan tidigare?
 
 
 Denna vecka blev lite överväldigande då det var så otroligt mycket nya saker. Nästan allt som vi gick igenom var helt nytt för mig. Något
@@ -21,7 +21,7 @@ dock inget jag har lärt mig till fullo. Jag behövde använda detta när jag gi
 största del lära oss det själva. Kanske därför det inte har fastnat så bra. 
 
 
-#### Har du några förutfattade meningar, eller kanske etablerad övertygelse, inom design och användbarhet för webben?
+### Har du några förutfattade meningar, eller kanske etablerad övertygelse, inom design och användbarhet för webben?
 
 
 Eftersom jag har läst kurser inom design och interaktionsdesign skulle jag väl säga att jag är ganska säker hur saker borde vara för att 
@@ -35,7 +35,7 @@ människor är ju också ganska förutsägbara vilket gör att det finns riktlin
 användaren rätt genom webbplatsen. 
 
 
-#### Hur kändes det att göra din egna layout och styla den? Gick det bra?
+### Hur kändes det att göra din egna layout och styla den? Gick det bra?
 
 
 Då jag inte riktigt förstod mig på koden som vi fick denna vecka kände jag mig lite feg. Det blev mest ändring av färger och bilder. Jag 
@@ -49,7 +49,7 @@ nya temat från grunden istället, men att ta lite inspiration från de gamla l�
 anpassa mig till den redan existerande koden, men självklart måste man ju lära sig det också.
 
 
-#### Vilken är din TIL för detta kmom?
+### Vilken är din TIL för detta kmom?
 
 Egentligen är det många saker men ett exempel är markdown. Jag har hört talas om det sedan innan men jag har aldrig vetat hur det används 
 eller hur man skriver det. Så det var väldigt intressant att få lära sig det. Något som också var helt nytt var Pico. Jag tror att jag 

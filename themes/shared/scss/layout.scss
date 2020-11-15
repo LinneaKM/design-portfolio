@@ -1,0 +1,553 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /* Makes it easier to use rem. E.g. 1.2rem = 12px */
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: darken($selected-nav-color, 20%);
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+    
+}
+
+a:hover {
+    color: rgb(2, 53, 17);
+}
+
+body {
+    background-color: scale-color($primary-color, $lightness: +70%);
+    
+}
+
+// LAYOUT FOR NAVBAR
+.navbar {
+    min-height: 10vh;
+    background-color: $primary-color;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;    
+}
+
+.logo {
+    display: flex;
+    flex: 1 1 40rem;
+    padding: 1rem;
+    
+    img {
+        max-width: 5em;
+    }
+}
+
+.nav {
+    
+    display: flex;
+    flex: 2 1 40rem;
+    align-items: center;
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        font-size: 1.6rem;
+    }
+    
+    a {
+        color: $nav-color;
+        font-weight: 800;
+    }
+}
+
+.nav-toggle {
+    color: #fff;
+}
+
+.nav .active a,
+.nav a:hover,
+.nav-toggle:hover {
+    color: $selected-nav-color;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+    color: $selected-nav-color;
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.title {
+    padding-left: 2rem;
+    
+    h1 {
+        font-size: 2.5rem;
+        margin: 0;
+        padding: 1rem;
+        color: $nav-color;
+    }
+    
+    p {
+        padding-left: 2rem;
+        font-size: 1.4rem;
+        font-style: italic;
+        color: $nav-color;
+    }
+}
+
+.inner-nav {
+    width: 100%;
+}
+
+// MOBILENAV
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+
+.inner-nav a:hover,
+.nav-toggle:hover {
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+
+// FLASH
+@mixin page-size {
+    width: 70%;
+    margin: auto;
+}
+
+
+.main,
+.flash-region {
+    @include page-size;
+}
+
+.main {
+    padding: 3rem;
+    background-color: #fff;
+    line-height: 1.5;
+    color: $text-color;
+    min-height: 60vh;
+}
+
+.flash-region {
+    text-align: center;
+    
+    img {
+        max-width: 100%;
+    }
+}
+
+// FOOTER
+
+.footer {
+    background-color: $primary-color;
+    min-height: 10vh;
+    color: #fff;
+    
+    a {
+        color: #ddd;
+    }
+    
+    a:hover {
+        color: #fff;
+    }
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-around;
+    text-align: center;
+    font-size: $icon-size;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+
+    .meimg-container {
+        text-align: center;
+        flex: 1 1 40rem;
+    }
+    
+    .about-me-container {
+        flex: 1 1 40rem;
+    }
+    
+    img {
+        padding: 1rem;
+        max-width: 100%;
+    }
+}
+
+// TABLES
+
+table {
+    border-spacing: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+td,
+th {
+    padding: 0.4em 1em;
+    vertical-align: top;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+    background-color: scale-color($primary-color, $lightness: +70%);
+    color: rgb(37, 37, 37);
+}
+
+td,
+th {
+    border: 1px solid rgb(129, 129, 129);
+}
+
+tr:not(:last-child) td,
+tr:not(:last-child) th {
+    border-bottom: 0 none;
+}
+
+thead tr:last-child th {
+    border-bottom: 0 none;
+}
+
+td:not(:last-child),
+th:not(:last-child) {
+    border-right: 0 none;
+}
+
+tr:first-child td:first-child,
+tr:first-child th:first-child {
+    border-top-left-radius: 0.3em;
+}
+
+tr:first-child td:last-child,
+tr:first-child th:last-child {
+    border-top-right-radius: 0.3em;
+}
+
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 0.3em;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 0.3em;
+}
+
+table thead+tbody tr:first-child td {
+    border-radius: 0 !important;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table-responsive>table {
+    margin-bottom: 0;
+}
+
+// FORMS
+
+label,
+fieldset legend {
+    font-weight: bold;
+    font-size: $body-text;
+}
+
+input:not([type='checkbox']):not([type='radio']),
+button,
+select,
+textarea,
+fieldset,
+fieldset legend {
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #fff;
+    transition: none 0.2s ease-in;
+    transition-property: border-color, background, box-shadow;
+}
+
+input:not([type='checkbox']):not([type='radio']),
+button,
+select,
+textarea {
+    padding: 0.5em 1em;
+    outline: 0 none;
+    font-size: $body-text - 0.3;
+}
+
+input:focus:not([type='checkbox']):not([type='radio']),
+button:focus,
+select:focus,
+textarea:focus {
+    border-color: #2eae9b;
+    box-shadow: 0 0 8px #2eae9b;
+}
+
+input:focus,
+button:focus,
+button:hover {
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+textarea,
+select {
+    vertical-align: bottom;
+    overflow: auto;
+}
+
+fieldset {
+    padding: 1em;
+    background: #f5f5f5;
+    margin: 1rem;
+}
+
+fieldset legend {
+    padding: 0 0.5em;
+}
+
+fieldset label,
+fieldset input,
+fieldset button,
+fieldset select,
+fieldset textarea {
+    margin: 0.2em 0.5em;
+}
+
+fieldset label:first-child,
+fieldset input:first-child,
+fieldset button:first-child,
+fieldset select:first-child,
+fieldset textarea:first-child {
+    margin-left: 0;
+}
+
+fieldset label:last-child,
+fieldset input:last-child,
+fieldset button:last-child,
+fieldset select:last-child,
+fieldset textarea:last-child {
+    margin-right: 0;
+}
+
+/*** LISTS ***/
+
+ol,
+ul {
+    list-style-position: outside;
+    padding-left: 1.5em;
+    font-size: $body-text;
+    margin-bottom: 1rem;
+}
+
+ol {
+    padding-left: 2.5em;
+}
+
+li {
+    padding-left: 0.5em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 2em;
+}
+
+dt,
+dd {
+    font-size: $body-text;
+}
+
+/*** CODE ***/
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+    font-family: monospace;
+    font-size: $body-text - 0.2;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #f5f5f5;
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 1.1111em 0;
+    border: 0 none;
+    background: transparent;
+    overflow-x: auto;
+    line-height: 1.4;
+}
+
+/*** BLOCKQUOTE ***/
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid $primary-color;
+}
+
+
+/* Small devices */
+
+@media (max-width: 800px) {
+    .inner-nav {
+        clear: both;
+        padding: 0;
+    }
+    
+    .inner-nav ul {
+        padding-bottom: 1em;
+    }
+    
+    .inner-nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .inner-nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+    
+    .js .nav-toggle {
+        display: block;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: $body-text + 0.5;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .js .nav-toggle>* {
+        vertical-align: middle;
+    }
+    
+    .content {
+        width: 100%;   
+    }
+    
+    .main {
+        width: 100%;
+    }
+    
+    .title {
+        padding-left: 0;
+        
+        h1 {
+            font-size: $header-4;
+        } 
+        
+        p {
+            padding-left: 1rem;
+            font-size: 1.4rem;
+        }
+    }
+    
+    .nav { 
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    
+    .flash-region {
+        width: 100%;
+    }
+    
+    .social {
+        font-size: $icon-size - 1.5;
+    }
+    
+    .footer-text {
+        p {
+            font-size: $body-text - 0.5;
+        } 
+    }
+    
+    .logo {
+        a {
+            flex-grow: 1;
+        }
+        
+        .title {
+            flex-grow: 4;
+        }
+    }
+    
+    .footer-container {
+        width: 100%;
+    }
+}

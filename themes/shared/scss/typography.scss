@@ -1,0 +1,63 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: $primary-color;
+}
+
+h1 {
+    font-size: $header-1;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-size: $header-2;
+    padding-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: $header-3;
+    padding-bottom: 1.5rem;
+}
+
+h4 {
+    font-size: $header-4;
+    padding-bottom: 1.5rem;
+}
+
+h5 {
+    font-size: $header-5;
+    padding-bottom: 1.5rem;
+    font-style: italic;
+}
+
+h6 {
+    font-size: $header-6;
+    padding-bottom: 1.5rem;
+    text-decoration: underline;
+}
+
+p {
+    font-size: $body-text;
+    margin-bottom: 1.5rem;
+}
+
+strong {
+    font-weight: 600;
+}
+
+th {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+td {
+    font-size: $body-text - 0.2;
+}
