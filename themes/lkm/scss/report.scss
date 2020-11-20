@@ -1,0 +1,54 @@
+.landing-page {
+    display: grid;
+    gap: 2.5rem 3rem;
+}
+
+.landing-page h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-card {
+    border-radius: 10px;
+    grid-column: span 1;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.kmom-card h3 {
+    color: $nav-color;
+}
+
+.kmom-card.project {
+    grid-column: span 3;
+}
+
+.header-background h3 {
+    padding: 0;
+}
+
+.header-background {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: $primary-color;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .landing-page {
+        gap: 2rem 0;
+    }
+
+    .landing-page h1,
+    .kmom-card,
+    .kmom-card.project {
+        grid-column: span 4;
+    }
+  
+}
