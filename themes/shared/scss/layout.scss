@@ -9,3 +9,7 @@ html {
     font-size: 62.5%; /* Makes it easier to use rem. E.g. 1.2rem = 12px */
     overflow-y: scroll;
 }
+
+@mixin mouse-pointer {
+    cursor: pointer;
+}
