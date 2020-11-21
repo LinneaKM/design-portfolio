@@ -7,16 +7,6 @@ Template: kmom
  Kursmoment 1
 ======
 
-<div class="sidebar">
-
-* [Kmom01](report/kmom01)
-* [Kmom02](report/kmom02)
-
-</div>
-
-
-<div class="kmom-main">
-
 ### Har du jobbat med ramverk eller andra CMS:er tidigare?
 
 Jag har tidigare jobbat med Wordpress i min tidigare utbildning samt på skarpa projekt. Dock har jag väl aldrig lärt mig det till fullo utan

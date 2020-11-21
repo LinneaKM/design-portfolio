@@ -1,6 +1,7 @@
 ---
 Title: Kmom06
 Description: Sixth assignment
+Template: kmom
 ---
 
  Kursmoment 6

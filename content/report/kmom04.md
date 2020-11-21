@@ -1,6 +1,7 @@
 ---
 Title: Kmom04
 Description: Fourth assignment
+Template: kmom
 ---
 
  Kursmoment 4

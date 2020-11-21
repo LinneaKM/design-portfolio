@@ -1,6 +1,7 @@
 ---
 Title: Kmom03
 Description: Third assignment
+Template: kmom
 ---
 
  Kursmoment 3

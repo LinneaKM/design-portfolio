@@ -1,6 +1,7 @@
 ---
 Title: Kmom02
 Description: Second assignment
+Template: kmom
 ---
 
  Kursmoment 2

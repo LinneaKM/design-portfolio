@@ -11,7 +11,7 @@ Redovisningssida för design
     <div class="header-background">
         <h3>Kmom01</h3>
     </div>
-    <p>Beskrivning om Kmom01.</p>
+    <p>Ramverk, innehåll och style</p>
     <i class="arrow fas fa-arrow-alt-circle-right"></i>
 </div>
 
@@ -19,7 +19,7 @@ Redovisningssida för design
     <div class="header-background">
         <h3>Kmom02</h3>
     </div>
-    <p>Beskrivning om Kmom02.</p>
+    <p>SASS och typografi.</p>
     <i class="arrow fas fa-arrow-alt-circle-right"></i>
 </div>
 
@@ -27,7 +27,7 @@ Redovisningssida för design
     <div class="header-background">
         <h3>Kmom03</h3>
     </div>
-    <p>Beskrivning om Kmom03.</p>
+    <p>Layout. CSS-grid och Flexbox.</p>
     <i class="arrow fas fa-arrow-alt-circle-right"></i>
 </div>
 
