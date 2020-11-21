@@ -1,10 +1,21 @@
 ---
 Title: Kmom01
 Description: First assignment
+Template: kmom
 ---
 
  Kursmoment 1
 ======
+
+<div class="sidebar">
+
+* [Kmom01](report/kmom01)
+* [Kmom02](report/kmom02)
+
+</div>
+
+
+<div class="kmom-main">
 
 ### Har du jobbat med ramverk eller andra CMS:er tidigare?
 
@@ -55,3 +66,5 @@ Egentligen är det många saker men ett exempel är markdown. Jag har hört tala
 eller hur man skriver det. Så det var väldigt intressant att få lära sig det. Något som också var helt nytt var Pico. Jag tror att jag 
 börjar få ett hum över hur upplägget är, men det är fortfarande mycket kvar att lära. Jag tycker att det känns som att det kommer vara 
 väldigt smidigt att använda när man väl lär sig det ordentligt.
+
+</div>
