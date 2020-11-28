@@ -1,3 +1,16 @@
+$primary-color: #122929;
+$dark-background: #101f1f;
+$dark-background-close: #263a3a;
+$dark-background-closer:  #3f5555;
+$nav-color: rgb(226, 226, 226);
+$text-color: #444;
+$selected-nav-color: #b49849;
+$social-hover : $selected-nav-color;
+$hover-link-color: rgb(192, 199, 101);
+$form-color: lighten($dark-background-closer, 30%);
+$form-color-close: lighten($dark-background-closer, 50%); 
+
+
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
@@ -6,18 +19,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 
-$primary-color: #122929;
-$dark-background: #101f1f;
-$dark-background-close: #263a3a;
-$dark-background-closer:  #3f5555;
-$nav-color: rgb(226, 226, 226);
-$text-color: #444;
-$selected-nav-color: #ecd136;
-
 @import 'base';
 @import 'report';
 @import 'kmom';
 @import 'mobile';
+
 
 h1,
 h2,
@@ -32,21 +38,36 @@ dl {
     color: $nav-color;
 }
 
+a:hover {
+    color: $hover-link-color;
+}
+
 .sidebar ul {
     background-color: $dark-background-closer;
     border-color: $dark-background;
 }
 
-code,
-td {
+code {
     color: $text-color;
     background-color: lighten($dark-background-closer, 40%);
+    border-color: $dark-background-closer;
+}
+
+td {
+    color: $text-color;
+    background-color: lighten($dark-background-closer, 50%);
+    border-color: $dark-background-closer;
 }
 
 
-pre,
-th, {
-    background-color: lighten($dark-background-closer, 40%);
+pre {
+    background-color: lighten($dark-background-closer, 50%);
+    border-color: $dark-background-closer;
+}
+
+th {
+    background-color: lighten($dark-background-closer, 30%);
+    border-color: $dark-background-closer;
 }
 
 body {
@@ -60,4 +81,12 @@ body {
 
 .kmom-card {
     background-color: $dark-background-closer;
+}
+
+.kmom-card i {
+    color: $nav-color;
+}
+
+img {
+    filter: brightness(75%);
 }

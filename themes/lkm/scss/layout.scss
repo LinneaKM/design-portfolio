@@ -1,13 +1,13 @@
 a {
     text-decoration: none;
-    color: darken($selected-nav-color, 20%);
+    color: $link-color;
     text-decoration: none;
     transition: color 0.2s ease-in;
     
 }
 
 a:hover {
-    color: rgb(2, 53, 17);
+    color: $hover-link-color;
 }
 
 body {
@@ -109,6 +109,7 @@ body {
 
 .darktheme-container a{
     font-size: $header-2;
+    color: $selected-nav-color;
     padding-right: 2rem;
 }
 
@@ -182,14 +183,14 @@ img {
 .footer {
     background-color: $primary-color;
     min-height: 10vh;
-    color: #fff;
+    color: $nav-color;
     
     a {
-        color: #ddd;
+        color: $social-color;
     }
     
     a:hover {
-        color: #fff;
+        color: $social-hover;
     }
 }
 
@@ -202,6 +203,7 @@ img {
 }
 
 .footer-text {
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,12 +211,13 @@ img {
 }
 
 .social {
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     flex-grow: 1;
     justify-content: space-around;
     text-align: center;
-    font-size: $icon-size;
+    font-size: $icon-size - 0.3;
 }
 
 .about-content {
@@ -322,7 +325,7 @@ fieldset,
 fieldset legend {
     border: 1px solid #ccc;
     border-radius: 0.3em;
-    background: #fff;
+    background: $form-color-close;
     transition: none 0.2s ease-in;
     transition-property: border-color, background, box-shadow;
 }
@@ -347,7 +350,7 @@ textarea:focus {
 input:focus,
 button:focus,
 button:hover {
-    background: #f5f5f5;
+    background: $form-color;
     cursor: pointer;
 }
 
@@ -359,7 +362,7 @@ select {
 
 fieldset {
     padding: 1em;
-    background: #f5f5f5;
+    background: $form-color;
     margin: 1rem;
 }
 
