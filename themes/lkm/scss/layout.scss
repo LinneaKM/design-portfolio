@@ -100,6 +100,18 @@ body {
     width: 100%;
 }
 
+.darktheme-container {
+    background-color: $primary-color;
+    padding-right: 20rem;
+    padding-top: 2rem;
+    text-align: right;
+}
+
+.darktheme-container a{
+    font-size: $header-2;
+    padding-right: 2rem;
+}
+
 // MOBILENAV
 
 .hidden {

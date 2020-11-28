@@ -1,0 +1,63 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
+$primary-color: #122929;
+$dark-background: #101f1f;
+$dark-background-close: #263a3a;
+$dark-background-closer:  #3f5555;
+$nav-color: rgb(226, 226, 226);
+$text-color: #444;
+$selected-nav-color: #ecd136;
+
+@import 'base';
+@import 'report';
+@import 'kmom';
+@import 'mobile';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+td,
+dl {
+    color: $nav-color;
+}
+
+.sidebar ul {
+    background-color: $dark-background-closer;
+    border-color: $dark-background;
+}
+
+code,
+td {
+    color: $text-color;
+    background-color: lighten($dark-background-closer, 40%);
+}
+
+
+pre,
+th, {
+    background-color: lighten($dark-background-closer, 40%);
+}
+
+body {
+    background-color: $dark-background;
+    
+}
+
+.main {
+    background-color: $dark-background-close;
+}
+
+.kmom-card {
+    background-color: $dark-background-closer;
+}

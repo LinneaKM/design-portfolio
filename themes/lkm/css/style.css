@@ -6563,6 +6563,10 @@ body {
   width: 100%;
 }
 
+.darktheme-container {
+  background-color: #445a52;
+}
+
 .hidden {
   display: none !important;
 }
