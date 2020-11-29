@@ -1,16 +1,15 @@
 $primary-color: #122929;
 $dark-background: #101f1f;
 $dark-background-close: #263a3a;
-$dark-background-closer:  #3f5555;
+$dark-background-closer: #3f5555;
 $nav-color: rgb(226, 226, 226);
 $text-color: $nav-color;
 $selected-nav-color: #c0a457;
 $link-color: #ccb742;
-$social-hover : $selected-nav-color;
+$social-hover: $selected-nav-color;
 $hover-link-color: rgb(192, 199, 101);
 $form-color: $dark-background-closer;
-$form-color-close: lighten($dark-background-closer, 30%); 
-
+$form-color-close: lighten($dark-background-closer, 30%);
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';

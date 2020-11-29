@@ -107,7 +107,7 @@ body {
     text-align: right;
 }
 
-.darktheme-container a{
+.darktheme-container a {
     font-size: $header-2;
     color: $selected-nav-color;
     padding-right: 2rem;
@@ -410,6 +410,7 @@ ol {
 
 li {
     padding-left: 0.5em;
+    padding-bottom: 1rem;
 }
 
 dt {

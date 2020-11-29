@@ -99,9 +99,15 @@
         <div class="kmom-container">
             <div class="sidebar">
                 <ul>
-                    {% for page in pages("report") if not page.hidden %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-                    {% endfor %}
+                    {% if meta.title|slice(0,4) == "Kmom" %}
+                        {% for page in pages("report") if not page.hidden %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                        {% endfor %}
+                    {% elseif meta.title|slice(0,7) == "Rapport" %}
+                        {% for page in pages("analysis") if not page.hidden %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                        {% endfor %}
+                    {% endif %}
                 </ul>            
             </div>
             <div class="kmom-main">
