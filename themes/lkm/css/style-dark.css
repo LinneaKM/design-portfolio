@@ -6472,22 +6472,22 @@ html {
 
 a {
   text-decoration: none;
-  color: #ad9926;
+  color: #ccb742;
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
 
 a:hover {
-  color: #023511;
+  color: #c0c765;
 }
 
 body {
-  background-color: #bcd4c2;
+  background-color: #a1d6d6;
 }
 
 .navbar {
   min-height: 10vh;
-  background-color: #385740;
+  background-color: #122929;
 }
 
 .content {
@@ -6519,7 +6519,7 @@ body {
   font-size: 1.6rem;
 }
 .nav a {
-  color: #fff;
+  color: #e2e2e2;
   font-weight: 800;
 }
 
@@ -6530,12 +6530,12 @@ body {
 .nav .active a,
 .nav a:hover,
 .nav-toggle:hover {
-  color: #e7d674;
+  color: #c0a457;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-  color: #e7d674;
+  color: #c0a457;
   text-decoration: underline;
 }
 
@@ -6550,13 +6550,13 @@ body {
   font-size: 2.5rem;
   margin: 0;
   padding: 1rem;
-  color: #fff;
+  color: #e2e2e2;
 }
 .title p {
   padding-left: 2rem;
   font-size: 1.4rem;
   font-style: italic;
-  color: #fff;
+  color: #e2e2e2;
 }
 
 .inner-nav {
@@ -6564,7 +6564,7 @@ body {
 }
 
 .darktheme-container {
-  background-color: #385740;
+  background-color: #122929;
   padding-right: 20rem;
   padding-top: 2rem;
   text-align: right;
@@ -6572,7 +6572,7 @@ body {
 
 .darktheme-container a {
   font-size: 2.441rem;
-  color: #e7d674;
+  color: #c0a457;
   padding-right: 2rem;
 }
 
@@ -6615,7 +6615,7 @@ body {
   padding: 3rem;
   background-color: #fff;
   line-height: 1.5;
-  color: #444;
+  color: #e2e2e2;
   min-height: 60vh;
 }
 
@@ -6631,15 +6631,15 @@ img {
 }
 
 .footer {
-  background-color: #385740;
+  background-color: #122929;
   min-height: 10vh;
-  color: #fff;
+  color: #e2e2e2;
 }
 .footer a {
   color: #ddd;
 }
 .footer a:hover {
-  color: #fff;
+  color: #c0a457;
 }
 
 .footer-container {
@@ -6698,7 +6698,7 @@ th {
 th {
   font-weight: bold;
   text-align: center;
-  background-color: #bcd4c2;
+  background-color: #a1d6d6;
   color: #252525;
 }
 
@@ -6765,7 +6765,7 @@ fieldset,
 fieldset legend {
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #fff;
+  background: #87a6a6;
   transition: none 0.2s ease-in;
   transition-property: border-color, background, box-shadow;
 }
@@ -6790,7 +6790,7 @@ textarea:focus {
 input:focus,
 button:focus,
 button:hover {
-  background: #fafafa;
+  background: #3f5555;
   cursor: pointer;
 }
 
@@ -6802,7 +6802,7 @@ select {
 
 fieldset {
   padding: 1em;
-  background: #fafafa;
+  background: #3f5555;
   margin: 1rem;
 }
 
@@ -6899,7 +6899,7 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #385740;
+  border-left: 0.5em solid #122929;
 }
 
 * {
@@ -6913,7 +6913,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
-  color: #385740;
+  color: #122929;
 }
 
 h1 {
@@ -6989,7 +6989,7 @@ td {
 }
 
 .kmom-card h3 {
-  color: #fff;
+  color: #e2e2e2;
 }
 
 .kmom-card.project {
@@ -7004,7 +7004,7 @@ td {
   width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
-  background-color: #568662;
+  background-color: #295e5e;
   text-align: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -7013,7 +7013,7 @@ td {
 .arrow {
   padding: 2rem;
   font-size: 4.052rem;
-  color: #385740;
+  color: #122929;
   position: absolute;
   align-content: flex-end;
   bottom: 0;
@@ -7148,4 +7148,67 @@ td {
   .sidebar {
     display: none;
   }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+td,
+dl {
+  color: #e2e2e2;
+}
+
+a:hover {
+  color: #c0c765;
+}
+
+.sidebar ul {
+  background-color: #3f5555;
+  border-color: #101f1f;
+}
+
+code {
+  color: #e2e2e2;
+  background-color: #3f5555;
+  border-color: #3f5555;
+}
+
+td {
+  color: #e2e2e2;
+  background-color: #3f5555, 50%;
+  border-color: #e2e2e2;
+}
+
+pre {
+  background-color: #3f5555;
+  border-color: #e2e2e2;
+}
+
+th {
+  background-color: #87a6a6;
+  border-color: #3f5555;
+}
+
+body {
+  background-color: #101f1f;
+}
+
+.main {
+  background-color: #263a3a;
+}
+
+.kmom-card {
+  background-color: #3f5555;
+}
+
+.kmom-card i {
+  color: #e2e2e2;
+}
+
+img {
+  filter: brightness(75%);
 }

@@ -35,7 +35,7 @@ Redovisningssida för design
     <div class="header-background">
         <h3>Kmom04</h3>
     </div>
-    <p>Beskrivning om Kmom04.</p>
+    <p>Färg och skapande av ett mörk tema.</p>
     <i class="arrow fas fa-arrow-alt-circle-right"></i>
 </div>
 
