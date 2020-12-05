@@ -6,6 +6,10 @@
         padding: 0;
     }
     
+    .navbar {
+        min-height: 10rem;
+    }
+
     .inner-nav ul {
         padding-bottom: 1em;
     }
@@ -95,4 +99,7 @@
         display: none;
     }
 
+    .darktheme-container {
+        padding-right: 2rem;
+    }
 }

@@ -17,20 +17,17 @@ body {
 
 // LAYOUT FOR NAVBAR
 .navbar {
-    min-height: 10vh;
+    min-height: 15rem;
     background-color: $primary-color;
 }
 
 .content {
     width: 70%;
-    display: flex;
-    flex-wrap: wrap;
     margin: auto;    
 }
 
 .logo {
     display: flex;
-    flex: 1 1 40rem;
     padding: 1rem;
     
     img {
@@ -41,7 +38,6 @@ body {
 .nav {
     
     display: flex;
-    flex: 2 1 40rem;
     align-items: center;
     
     ul {
