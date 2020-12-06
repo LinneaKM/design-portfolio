@@ -43,7 +43,7 @@ Redovisningssida för design
     <div class="header-background">
         <h3>Kmom05</h3>
     </div>
-    <p>Beskrivning om Kmom05.</p>
+    <p>Bilder.</p>
     <i class="arrow fas fa-arrow-alt-circle-right"></i>
 </div>
 

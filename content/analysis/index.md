@@ -19,7 +19,7 @@ Redovisningssida för design
     <div class="header-background">
         <h3>Rapport 2</h3>
     </div>
-    <p>Beskrivning om rapport 2.</p>
+    <p>Laddningstid</p>
     <i class="arrow fas fa-arrow-alt-circle-right"></i>
 </div>
 
