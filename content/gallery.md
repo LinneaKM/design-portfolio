@@ -22,6 +22,3 @@ images:
     - alt: cat
       url: cat9.jpg?crop-to-fit&aspect-ratio=!1:1
 ---
-
-Galleri
-=======

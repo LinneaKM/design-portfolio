@@ -3,13 +3,10 @@
     flex-direction: row;
 }
 
-.kmom-container.sidebar {
-    flex-grow: 2;
-}
-
 .sidebar {
     margin-right: 6rem;
     padding-top: 4rem;
+    flex-grow: 2;
     
 }
 
