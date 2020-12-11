@@ -7,6 +7,8 @@ Template: kmom
  Kursmoment 1
 ======
 
+## Ramverk, innehåll och style
+
 ### Har du jobbat med ramverk eller andra CMS:er tidigare?
 
 Jag har tidigare jobbat med Wordpress i min tidigare utbildning samt på skarpa projekt. Dock har jag väl aldrig lärt mig det till fullo utan

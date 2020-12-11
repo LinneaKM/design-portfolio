@@ -7,8 +7,10 @@ Template: kmom
  Kursmoment 5
 ======
 
+## Bilder
+
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/wTaXI9LUugc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/wTaXI9LUugc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="video of kittens"></iframe>
 </div>
 
 ### Berätta kort om erfarenheterna med din undersökning av webbplatsers laddningstid och vad du kom fram till.

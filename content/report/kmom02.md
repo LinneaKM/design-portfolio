@@ -7,6 +7,8 @@ Template: kmom
  Kursmoment 2
 ======
 
+## SASS och typografi
+
 ### Vad tycker du om SASS än så länge?
 
 Svårt att säga efter så här kort tid. Än så länge har det varit ganska blandat. Ibland ganska enkelt eftersom att det liknar CSS ganska mycket. Ibland väldigt svårt då vissa saker är lite annorlunda och jag inte vet vad jag ska leta efter i SASS-dokumentationen. Jag tror också att Pico fortfarande gör mig förvirrad och överväldigad vilket gör att för mycket tid går åt till det. Efter det här kursmomentet har jag fått lite bevis på att SASS kan göra livet lite enklare, men eftersom jag inte är van vid det har jag nog missat att använda många smarta vägar. Jag har helt enkelt inte jobbat med det så mycket så att jag kan förstå SASS fulla potential. Jag har dock hört att många tycker om att använda det, så det ska bli spännande att fortsätta att arbeta med det.  

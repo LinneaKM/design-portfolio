@@ -7,6 +7,8 @@ Template: kmom
  Kursmoment 4
 ======
 
+## Färg
+
 ### Kommentera kort om skrivuppgiften, något som är värt att nämna från arbetet med den?
 
 Jag tyckte att det var intressant att analysera hemsidorna. Dock är det väldigt svårt då speciellt färg, kan uppfattas väldigt olika mellan olika personer. Jag var också lite osäker på hur mycket man behövde skriva och hur djupt i analyserna man behövde gå. Enligt genomgångarna och kraven kändes det inte som att man behövde skriva så mycket under varje rubrik. Vad gäller mitt arbete tycker jag att jag fick ett ganska intressant resultat med att alla sidor jag analyserade oftast använde sig av vitt, gråskalor och svart. Förmodligen för att lägga fokus på deras tidigare projekt.

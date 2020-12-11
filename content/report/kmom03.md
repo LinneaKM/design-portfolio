@@ -7,6 +7,8 @@ Template: kmom
  Kursmoment 3
 ======
 
+## Layout
+
 ### Hur har det gått att jobba med CSS-Grid/Flexbox?
 
 Det har gått ganska bra att arbeta med CSS-grid och Flexbox. Jag tror att det är mest på grund av att vi fick en hel del bra material att läsa, samt att genomgången gick igenom lite exempel. Jag har även arbetat med Flexbox sedan tidigare vilket gjorde att det var en sak som jag inte behövde lära mig från grunden. 
