@@ -27,6 +27,6 @@ Redovisningssida för design
     <div class="header-background">
         <h2>Rapport 3</h2>
     </div>
-    <p>Beskrivning om rapport 3.</p>
+    <p>Analys av designprinciper.</p>
     <i class="arrow fas fa-arrow-alt-circle-right"></i>
 </div>

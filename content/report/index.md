@@ -51,7 +51,7 @@ Redovisningssida för design
     <div class="header-background">
         <h2>Kmom06</h2>
     </div>
-    <p>Beskrivning om Kmom06.</p>
+    <p>Tillgänglighet och prestanda.</p>
     <i class="arrow fas fa-arrow-alt-circle-right" title="Arrow symbol"></i>
 </div>
 
