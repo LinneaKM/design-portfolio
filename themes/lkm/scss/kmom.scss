@@ -3,10 +3,15 @@
     flex-direction: row;
 }
 
+.kmom-main {
+    max-width: 1025px;
+}
+
 .sidebar {
     margin-right: 6rem;
     padding-top: 4rem;
     flex-grow: 2;
+    min-width: 200px;
     
 }
 
