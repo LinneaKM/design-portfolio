@@ -7,6 +7,8 @@ Template: kmom
  Kursmoment 6
 ======
 
+## Tillgänglighet och prestanda
+
 ### Hur känns det att tänka i termer av designelement och designprinciper?
 
 För mig känns det ganska naturligt, men det är nog mest på grund av min tidigare utbildning inom grafisk design och kommunikation. Vi fick aldrig uttrycka att vi tyckte något var “snyggt”, då det är en väldigt personlig sak. Vi fick alltid använda oss av designprinciper och teorier när vi skulle förklara varför något var estetiskt tilltalande. Nu var det ett tag sedan jag jobbade så, så allt är man lite ringrostig. Men det känns som att det snabbt kommer tillbaka. 
